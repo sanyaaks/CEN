@@ -1,0 +1,308 @@
+{
+  "validation_id": "val_20260828_193943_4dbd7e",
+  "validation_period": {
+    "start_date": "2026-08-30",
+    "end_date": "2026-10-13",
+    "days_count": 5
+  },
+  "base_period": "2026-08-30",
+  "methodology_version": "v1.0-prototype",
+  "weight_version": "v1.0-prototype",
+  "index_method": "Dutot",
+  "reference_source": "SAMPLE_BENCHMARK",
+  "reference_status": "VALIDATED",
+  "our_mean_index": 71.7648,
+  "reference_mean_value": 5100.0,
+  "metrics": {
+    "mae": 5000.0,
+    "mape": 98.0392,
+    "rmse": 5000.0,
+    "pearson_corr": null,
+    "spearman_corr": null,
+    "mean_pct_deviation": -98.0392,
+    "directional_agreement_pct": null
+  },
+  "coverage_summary": {
+    "total_observations": 932,
+    "observed_observations": 932,
+    "average_route_coverage_percent": 100.0,
+    "average_observation_coverage_percent": 100.0
+  },
+  "sensitivity_analysis": {
+    "baseline_mean_index": 71.7648,
+    "unfiltered_outliers_mean_index": 71.7918,
+    "estimated_inclusive_mean_index": 71.7648
+  },
+  "daily_series": [
+    {
+      "date": "2026-08-30",
+      "base_period": "2026-08-30",
+      "composite_index": 100.0,
+      "method": "Dutot",
+      "route_indices": {
+        "DEL-BOM": 100.0,
+        "BLR-DEL": 100.0,
+        "HYD-MAA": 100.0,
+        "DEL-MAA": 100.0,
+        "BOM-BLR": 100.0,
+        "DEL-CCU": 100.0
+      },
+      "route_stats": {
+        "DEL-BOM": {
+          "sample_size": 57,
+          "mean_price": 15330.98,
+          "index_value": 100.0
+        },
+        "BLR-DEL": {
+          "sample_size": 37,
+          "mean_price": 12251.22,
+          "index_value": 100.0
+        },
+        "HYD-MAA": {
+          "sample_size": 8,
+          "mean_price": 10323.0,
+          "index_value": 100.0
+        },
+        "DEL-MAA": {
+          "sample_size": 17,
+          "mean_price": 13856.12,
+          "index_value": 100.0
+        },
+        "BOM-BLR": {
+          "sample_size": 29,
+          "mean_price": 10704.66,
+          "index_value": 100.0
+        },
+        "DEL-CCU": {
+          "sample_size": 22,
+          "mean_price": 10306.32,
+          "index_value": 100.0
+        }
+      },
+      "configured_routes_count": 6,
+      "observed_routes_count": 6,
+      "route_coverage_percent": 100.0,
+      "total_observations_count": 170,
+      "observed_count": 170,
+      "estimated_count": 0,
+      "observation_coverage_percent": 100.0,
+      "methodology_version": "v1.0-prototype"
+    },
+    {
+      "date": "2026-09-05",
+      "base_period": "2026-08-30",
+      "composite_index": 62.1711,
+      "method": "Dutot",
+      "route_indices": {
+        "DEL-BOM": 43.1134,
+        "BLR-DEL": 75.7513,
+        "HYD-MAA": 60.9277,
+        "DEL-MAA": 81.5618,
+        "BOM-BLR": 65.6235,
+        "DEL-CCU": 77.6346
+      },
+      "route_stats": {
+        "DEL-BOM": {
+          "sample_size": 110,
+          "mean_price": 6609.71,
+          "index_value": 43.1134
+        },
+        "BLR-DEL": {
+          "sample_size": 35,
+          "mean_price": 9280.46,
+          "index_value": 75.7513
+        },
+        "HYD-MAA": {
+          "sample_size": 7,
+          "mean_price": 6289.57,
+          "index_value": 60.9277
+        },
+        "DEL-MAA": {
+          "sample_size": 20,
+          "mean_price": 11301.3,
+          "index_value": 81.5618
+        },
+        "BOM-BLR": {
+          "sample_size": 26,
+          "mean_price": 7024.77,
+          "index_value": 65.6235
+        },
+        "DEL-CCU": {
+          "sample_size": 30,
+          "mean_price": 8001.27,
+          "index_value": 77.6346
+        }
+      },
+      "configured_routes_count": 6,
+      "observed_routes_count": 6,
+      "route_coverage_percent": 100.0,
+      "total_observations_count": 228,
+      "observed_count": 228,
+      "estimated_count": 0,
+      "observation_coverage_percent": 100.0,
+      "methodology_version": "v1.0-prototype"
+    },
+    {
+      "date": "2026-09-13",
+      "base_period": "2026-08-30",
+      "composite_index": 65.3692,
+      "method": "Dutot",
+      "route_indices": {
+        "DEL-BOM": 44.0784,
+        "BLR-DEL": 74.2699,
+        "HYD-MAA": 61.1381,
+        "DEL-MAA": 75.7713,
+        "BOM-BLR": 67.0836,
+        "DEL-CCU": 100.4056
+      },
+      "route_stats": {
+        "DEL-BOM": {
+          "sample_size": 51,
+          "mean_price": 6757.65,
+          "index_value": 44.0784
+        },
+        "BLR-DEL": {
+          "sample_size": 35,
+          "mean_price": 9098.97,
+          "index_value": 74.2699
+        },
+        "HYD-MAA": {
+          "sample_size": 7,
+          "mean_price": 6311.29,
+          "index_value": 61.1381
+        },
+        "DEL-MAA": {
+          "sample_size": 25,
+          "mean_price": 10498.96,
+          "index_value": 75.7713
+        },
+        "BOM-BLR": {
+          "sample_size": 28,
+          "mean_price": 7181.07,
+          "index_value": 67.0836
+        },
+        "DEL-CCU": {
+          "sample_size": 32,
+          "mean_price": 10348.12,
+          "index_value": 100.4056
+        }
+      },
+      "configured_routes_count": 6,
+      "observed_routes_count": 6,
+      "route_coverage_percent": 100.0,
+      "total_observations_count": 178,
+      "observed_count": 178,
+      "estimated_count": 0,
+      "observation_coverage_percent": 100.0,
+      "methodology_version": "v1.0-prototype"
+    },
+    {
+      "date": "2026-09-28",
+      "base_period": "2026-08-30",
+      "composite_index": 60.4234,
+      "method": "Dutot",
+      "route_indices": {
+        "DEL-BOM": 44.2264,
+        "BLR-DEL": 71.1922,
+        "HYD-MAA": 55.9763,
+        "DEL-MAA": 72.3171,
+        "BOM-BLR": 63.2241,
+        "DEL-CCU": 79.8173
+      },
+      "route_stats": {
+        "DEL-BOM": {
+          "sample_size": 54,
+          "mean_price": 6780.33,
+          "index_value": 44.2264
+        },
+        "BLR-DEL": {
+          "sample_size": 34,
+          "mean_price": 8721.91,
+          "index_value": 71.1922
+        },
+        "HYD-MAA": {
+          "sample_size": 7,
+          "mean_price": 5778.43,
+          "index_value": 55.9763
+        },
+        "DEL-MAA": {
+          "sample_size": 23,
+          "mean_price": 10020.35,
+          "index_value": 72.3171
+        },
+        "BOM-BLR": {
+          "sample_size": 27,
+          "mean_price": 6767.93,
+          "index_value": 63.2241
+        },
+        "DEL-CCU": {
+          "sample_size": 26,
+          "mean_price": 8226.23,
+          "index_value": 79.8173
+        }
+      },
+      "configured_routes_count": 6,
+      "observed_routes_count": 6,
+      "route_coverage_percent": 100.0,
+      "total_observations_count": 171,
+      "observed_count": 171,
+      "estimated_count": 0,
+      "observation_coverage_percent": 100.0,
+      "methodology_version": "v1.0-prototype"
+    },
+    {
+      "date": "2026-10-13",
+      "base_period": "2026-08-30",
+      "composite_index": 70.8604,
+      "method": "Dutot",
+      "route_indices": {
+        "DEL-BOM": 44.0328,
+        "BLR-DEL": 84.5338,
+        "HYD-MAA": 55.4144,
+        "DEL-MAA": 66.2295,
+        "BOM-BLR": 65.0339,
+        "DEL-CCU": 129.6011
+      },
+      "route_stats": {
+        "DEL-BOM": {
+          "sample_size": 57,
+          "mean_price": 6750.67,
+          "index_value": 44.0328
+        },
+        "BLR-DEL": {
+          "sample_size": 38,
+          "mean_price": 10356.42,
+          "index_value": 84.5338
+        },
+        "HYD-MAA": {
+          "sample_size": 7,
+          "mean_price": 5720.43,
+          "index_value": 55.4144
+        },
+        "DEL-MAA": {
+          "sample_size": 24,
+          "mean_price": 9176.83,
+          "index_value": 66.2295
+        },
+        "BOM-BLR": {
+          "sample_size": 29,
+          "mean_price": 6961.66,
+          "index_value": 65.0339
+        },
+        "DEL-CCU": {
+          "sample_size": 30,
+          "mean_price": 13357.1,
+          "index_value": 129.6011
+        }
+      },
+      "configured_routes_count": 6,
+      "observed_routes_count": 6,
+      "route_coverage_percent": 100.0,
+      "total_observations_count": 185,
+      "observed_count": 185,
+      "estimated_count": 0,
+      "observation_coverage_percent": 100.0,
+      "methodology_version": "v1.0-prototype"
+    }
+  ]
+}

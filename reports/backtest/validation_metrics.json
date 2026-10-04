@@ -1,0 +1,9 @@
+{
+  "mae": 5000.0,
+  "mape": 98.0392,
+  "rmse": 5000.0,
+  "pearson_corr": null,
+  "spearman_corr": null,
+  "mean_pct_deviation": -98.0392,
+  "directional_agreement_pct": null
+}

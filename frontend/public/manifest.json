@@ -1,0 +1,61 @@
+{
+  "name": "AirIndex India — Real-Time Indian Airfare Price Index",
+  "short_name": "AirIndex",
+  "description": "High-frequency domestic airfare inflation monitoring platform under Ministry of Statistics and Programme Implementation (MoSPI) / NSO CPI methodology.",
+  "start_url": "/",
+  "id": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0c0f17",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/",
+      "description": "View airfare indices and market overview"
+    },
+    {
+      "name": "Routes",
+      "url": "/routes",
+      "description": "Analyze price trends across Indian domestic routes"
+    },
+    {
+      "name": "Booking Window",
+      "url": "/booking-window",
+      "description": "Explore advance purchase pricing patterns (T-1 to T-60)"
+    },
+    {
+      "name": "Data Quality",
+      "url": "/data-quality",
+      "description": "Inspect collection integrity and coverage metrics"
+    }
+  ],
+  "categories": ["finance", "government", "utilities", "productivity"]
+}

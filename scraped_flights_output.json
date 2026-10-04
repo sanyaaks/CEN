@@ -1,0 +1,122 @@
+{
+  "project": "Project CEN (Bharat-APIx)",
+  "authority": "Ministry of Statistics & Programme Implementation (MoSPI)",
+  "scraper_engine": "browser-use (google_flights)",
+  "route": "DEL-BOM",
+  "departure_date": "2026-08-31",
+  "scrape_timestamp": "2026-08-30T11:55:37.876080Z",
+  "total_found": 10,
+  "currency": "INR",
+  "flights": [
+    {
+      "airline": "Air India",
+      "flight_number": "AI 2437",
+      "origin": "DEL",
+      "destination": "BOM",
+      "departure_time": "10:30 PM",
+      "arrival_time": "12:55 AM",
+      "price_inr": 6582,
+      "is_non_stop": true,
+      "source": "browser-use-agent"
+    },
+    {
+      "airline": "IndiGo",
+      "flight_number": "6E 6114",
+      "origin": "DEL",
+      "destination": "BOM",
+      "departure_time": "10:45 PM",
+      "arrival_time": "1:05 AM",
+      "price_inr": 6583,
+      "is_non_stop": true,
+      "source": "browser-use-agent"
+    },
+    {
+      "airline": "SpiceJet",
+      "flight_number": "SG 802",
+      "origin": "DEL",
+      "destination": "BOM",
+      "departure_time": "10:30 PM",
+      "arrival_time": "12:50 AM",
+      "price_inr": 7335,
+      "is_non_stop": true,
+      "source": "browser-use-agent"
+    },
+    {
+      "airline": "Air India",
+      "flight_number": "AI 2957",
+      "origin": "DEL",
+      "destination": "BOM",
+      "departure_time": "8:30 PM",
+      "arrival_time": "11:05 PM",
+      "price_inr": 6582,
+      "is_non_stop": true,
+      "source": "browser-use-agent"
+    },
+    {
+      "airline": "Air India",
+      "flight_number": "AI 2981",
+      "origin": "DEL",
+      "destination": "BOM",
+      "departure_time": "9:00 PM",
+      "arrival_time": "11:20 PM",
+      "price_inr": 6582,
+      "is_non_stop": true,
+      "source": "browser-use-agent"
+    },
+    {
+      "airline": "Air India",
+      "flight_number": "AI 2433",
+      "origin": "DEL",
+      "destination": "BOM",
+      "departure_time": "9:30 PM",
+      "arrival_time": "11:55 PM",
+      "price_inr": 6582,
+      "is_non_stop": true,
+      "source": "browser-use-agent"
+    },
+    {
+      "airline": "Air India",
+      "flight_number": "AI 2999",
+      "origin": "DEL",
+      "destination": "BOM",
+      "departure_time": "10:00 PM",
+      "arrival_time": "12:25 AM",
+      "price_inr": 6582,
+      "is_non_stop": true,
+      "source": "browser-use-agent"
+    },
+    {
+      "airline": "Air India",
+      "flight_number": "AI 2439",
+      "origin": "DEL",
+      "destination": "BOM",
+      "departure_time": "11:00 PM",
+      "arrival_time": "1:25 AM",
+      "price_inr": 6582,
+      "is_non_stop": true,
+      "source": "browser-use-agent"
+    },
+    {
+      "airline": "IndiGo",
+      "flight_number": "6E 853",
+      "origin": "DEL",
+      "destination": "BOM",
+      "departure_time": "8:45 PM",
+      "arrival_time": "11:00 PM",
+      "price_inr": 6793,
+      "is_non_stop": true,
+      "source": "browser-use-agent"
+    },
+    {
+      "airline": "IndiGo",
+      "flight_number": "6E 395",
+      "origin": "DEL",
+      "destination": "BOM",
+      "departure_time": "9:45 PM",
+      "arrival_time": "12:05 AM",
+      "price_inr": 6793,
+      "is_non_stop": true,
+      "source": "browser-use-agent"
+    }
+  ]
+}

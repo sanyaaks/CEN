@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Offline | AirIndex India — MoSPI</title>
+  <meta name="theme-color" content="#0f172a">
+  <link rel="icon" href="/favicon-32x32.png" type="image/png">
+  <style>
+    :root {
+      --color-gold: #c59b27;
+      --color-gold-hover: #b38a1f;
+      --bg-dark: #090d16;
+      --card-dark: #131b2e;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --border-dark: #1e293b;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+    }
+    .card {
+      background: var(--card-dark);
+      border: 1px solid var(--border-dark);
+      border-radius: 16px;
+      padding: 40px 28px;
+      max-width: 460px;
+      width: 100%;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+    }
+    .emblem {
+      width: 48px;
+      height: auto;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(197, 155, 39, 0.15);
+      color: var(--color-gold);
+      border: 1px solid rgba(197, 155, 39, 0.3);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+    p {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: var(--color-gold);
+      color: #090d16;
+      border: none;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 12px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      transition: all 0.15s ease;
+      box-shadow: 0 4px 12px rgba(197, 155, 39, 0.25);
+    }
+    .btn:hover {
+      background: var(--color-gold-hover);
+      transform: translateY(-1px);
+    }
+    .btn:active {
+      transform: translateY(0);
+    }
+    .footer-note {
+      font-size: 11px;
+      color: #64748b;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="/emblem_lion_gold.png" alt="MoSPI Emblem" class="emblem">
+    <div>
+      <span class="badge">AirIndex Offline Mode</span>
+    </div>
+    <h1>No Internet Connection</h1>
+    <p>
+      AirIndex India is currently running in offline mode. Previously visited dashboard and cached route pages remain available. Reconnect to refresh live market index and real-time scrapers.
+    </p>
+    <button class="btn" onclick="window.location.reload()">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+      </svg>
+      Retry Connection
+    </button>
+    <div class="footer-note">
+      Ministry of Statistics & Programme Implementation • Project CEN
+    </div>
+  </div>
+</body>
+</html>
